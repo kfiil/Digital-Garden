@@ -8,10 +8,6 @@
 6. [[Strategy and Roadmap Uncertainty#Concerns|Concerns]]
 7. [[Strategy and Roadmap Uncertainty#Notes|Notes]]
 
-
-
-https://link.medium.com/Zim66w9Qetb
-
 ## Strategy
 1. Mapping out domain landscape ([[Turning Domain Discovery into Product and Organizational Improvements with a DDD Exemplar|Domain Discovery & Core Domain Chart]])
 2. Make an investment decision - *which of the proposed improvements to increasing differentiation or removing complexity should you choose?*
@@ -34,6 +30,10 @@ Notes [[Strategy and Roadmap Uncertainty#Strategies for Handling Roadmap Uncerta
 - Building the right thing, building the thing right
 - Solution design(user story mapping, event storms)
 	- Risk assesment of new initiatives 
+- The Software Delivery Mantra
+	- Don’t confuse motion with progress
+	- Don’t confuse progress with the ability to deliver on time
+	- Don’t confuse delivering on time with delivery of the right outcome
 
 ### Guiding critical projects
 [[Guiding Critical Projects Without Micromanaging]]
@@ -48,10 +48,6 @@ Notes [[Strategy and Roadmap Uncertainty#Strategies for Handling Roadmap Uncerta
 	- _How do you know you are doing a good job?_
 	- _How do you know you are doing the right thing?_
 	- _How do you know whether your colleagues need your help?_
-
-
-## Concerns
-- Am I boiling the ocean?
 
 
 ## Notes
@@ -78,3 +74,41 @@ There are few strategies I’ve learned about building a roadmap:
   The value of these questions is that you start to treat big technical projects the same way as product initiatives. These projects have advocates and goals, they have schedules, and they are managed like other big initiatives. This is a scary process because there are times when you “know” something is important, but you don’t know how to articulate it in a way that the business will value. Especially given the complex nature of technical projects and the challenge of measuring things like engineering efficiency, you’re sometimes stuck trying to explain technical details to a nontechnical partner who may not totally understand where you’re going or why. My advice is to do your best to gather data to support yourself, and talk about what will be possible when the work is done. If you look at a technical project and realize that you’re proposing a bunch of work for a system that is rarely changed and won’t enable core improvements to your technology or business, it probably isn’t worth the effort. Unfortunately, there is never enough time for all the exploratory engineering, legacy code cleanup, and technical quality improvements your team will want to do, and this process will help you pick your battles.
 
 Source [[4.  Resources/Books/The Manager's Path]]
+
+### The Software Delivery Mantra
+#### Navigating Complex Delivery
+Developing software with complex requirements or environments with ambiguity can make a team lose their heading. It requires structure to ensure accurate, timely delivery and everyone to be on the same page. In this article, I illustrate the steps I have cultivated in my career to make sure the course of the team is headed in the right direction when they veer off course.
+
+![](https://miro.medium.com/max/1400/1*4skQhSqZ83Xae73EtXu_vw.jpeg)
+
+Credit: Dreamstime.com
+
+#### The Mantra
+> — Don’t confuse motion with progress  
+> — Don’t confuse progress with the ability to deliver on time  
+> — Don’t confuse delivering on time with delivery of the right outcome
+
+#### Motion is not always progress
+You could be treading water. The first area of inspection is generally looking to see if the activities of the team align to some direction. Things I look out for:
+- lack of clarity on the end goal
+- lack of smaller, near term milestones
+- a singular focus on activities in the absence of a plan
+
+#### Progress is great, how are we pacing?
+If the activities are driving incremental progress in the project, the next area is to see if the pace of work will result in delivery in a timely fashion. The pitfalls to watch out for here are:
+- lack of a [work-back plan](https://datou-tech.medium.com/back-stop-buck-stop-timely-software-delivery-9783a1f98dce?source=user_profile---------1----------------------------) or an agile technique to estimate delivery (ie, story point heuristics)
+- lack of debate on tradeoffs on all sides of scope, quality and time
+- absence of communication and action taken on blockers (ie, clearly calling out dependencies)
+
+#### We are going to make it! Wait… where are we?
+This last one is most suited as a first step but when building software in an agile environment, there should be constant evaluation if the goals have changed since development started. Especially long lived initiatives or teams building out large platforms. Things to look out for:
+- lack of structured documentation outlining the goals
+- lack of community understanding of what the goal is (and explicitly what the goal is not)
+- absence of qualitative success metrics
+
+#### Summary
+While this article focused primarily on things to avoid, I hope it provides some cautionary signs to help you prevent your projects from heading to the wrong destination or never arriving.
+
+I have heard this phenomena termed “Swirl” also. Here is a bonus doodle:
+
+![](https://miro.medium.com/max/1400/1*ARCbmNisjmJWhLTwGVI1xg.jpeg)
