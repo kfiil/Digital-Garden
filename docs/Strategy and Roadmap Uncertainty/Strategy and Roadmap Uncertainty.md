@@ -36,7 +36,7 @@ Notes [[Strategy and Roadmap Uncertainty#Strategies for Handling Roadmap Uncerta
 	- Don’t confuse delivering on time with delivery of the right outcome
 
 ### Guiding critical projects
-[[Guiding critical projects without micromanaging - Camille Fournier|Guiding Critical Projects Without Micromanaging]]
+[[Guiding Critical Projects Without Micromanaging]]
 - Being outcomes-driven (is the work getting done, with good quality, in reasonable time, without burning out the people involved) is the only way I know how to work.
 - I trusted every person individually who was working on it, but I didn’t feel like I understood the details and I was worried that we weren’t asking ourselves the hard prioritization questions often enough. So I started a monthly update meeting.
 - [Manage Colony Leadership Team](https://docs.google.com/presentation/d/1eEXQUkkxLC8HUbRRxbek1Xc4xOW__rk5p5ZBwfm0FXc/edit?usp=sharing) The colony leadership team and the squads follow up on the objectives in biweekly meetings
