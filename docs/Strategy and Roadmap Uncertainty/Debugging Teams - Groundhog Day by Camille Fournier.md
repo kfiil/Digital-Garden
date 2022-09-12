@@ -3,7 +3,7 @@ published: May 20, 2022
 read: 2022-09-09
 source: https://skamille.medium.com/debugging-teams-groundhog-day-f0483fea82d9
 ---
-# # Debugging Teams: Groundhog Day - [[Camille Fournier]]
+# # Debugging Teams: Groundhog Day - Camille Fournier
 Have you ever been on a team that seemed to work very hard but never move forward? Where you look back quarter after quarter, or perhaps year after year, and you did a lot, but nothing actually seemed to happen? Congratulations, you’re in the middle of Groundhog Day.
 
 Groundhog Day (or perhaps Russian Doll, if you want a more modern reference), is the experience of doing plenty of work to move forward, and yet never quite seeing lasting change from that work. You feel busy but stuck in place. When you look back at the quarter, the past six months, or (most commonly) the year, and realize that you set a lot of goals, and even reached many of them, yet nothing feels different, you’re stuck in Groundhog Day.

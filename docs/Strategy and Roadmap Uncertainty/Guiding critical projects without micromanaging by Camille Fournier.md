@@ -2,7 +2,7 @@
 source: https://skamille.medium.com/guiding-critical-projects-without-micromanaging-2391ba83f955
 read: 2022-09-09
 ---
-# Guiding critical projects without micromanaging - [[Camille Fournier]]
+# Guiding critical projects without micromanaging - Camille Fournier
 
 ## The limits of flexible management
 

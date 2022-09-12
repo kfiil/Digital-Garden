@@ -8,5 +8,3 @@ Durable teams are built on a shared purpose that comes from the company itself, 
 Getting clarity about the purpose of your team and your company can take time. In startups especially, there is often some confusion about the current goals and even sometimes the underlying mission. In the case where the goals are fuzzy and the mission is unclear, do your best to understand the company culture and think about how you can set your teams up to work well within that culture. By collaborating across teams and across business functions, your teams will come to understand the bigger picture and appreciate their mission as part of that picture.
 
 — The Manager's Path: A Guide for Tech Leaders Navigating Growth and Change by Camille Fournier https://a.co/aV3VcTe
-
-[[High-performing Team]]
