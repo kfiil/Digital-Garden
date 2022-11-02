@@ -1,0 +1,594 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="../../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.4.2, mkdocs-material-8.5.7" name="generator"/>
+<title>Strategy and Roadmap Uncertainty - Digital Garden</title>
+<link href="../../assets/stylesheets/main.20d9efc8.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body data-md-color-accent="light-blue" data-md-color-primary="indigo" data-md-color-scheme="default" dir="ltr">
+<script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#strategy-and-roadmap-uncertainty">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="Digital Garden" class="md-header__button md-logo" data-md-component="logo" href="../.." title="Digital Garden">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Digital Garden
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Strategy and Roadmap Uncertainty
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="light-blue" data-md-color-media="(prefers-color-scheme: light)" data-md-color-primary="indigo" data-md-color-scheme="default" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_2" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="blue" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-primary="pink" data-md-color-scheme="slate" id="__palette_2" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"></path></svg>
+</label>
+</form>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Digital Garden" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="Digital Garden">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+    Digital Garden
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../..">
+        Digital Garden
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2">
+          Decision Support Metrics
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Decision Support Metrics" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+          Decision Support Metrics
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Decision%20Support%20Metrics/Decision%20Support%20Metrics/">
+        Decision Support Metrics
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Decision%20Support%20Metrics/Project%20Health/">
+        Project Health
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3">
+          Strategy and Roadmap Uncertainty
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Strategy and Roadmap Uncertainty" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+          Strategy and Roadmap Uncertainty
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Debugging%20Teams%20-%20Groundhog%20Day%20by%20Camille%20Fournier/">
+        Debugging Teams: Groundhog Day - Camille Fournier
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Durable%20teams%20-%20The%20Managers%20Path%2C%20Camille%20Fournier/">
+        Durable teams   The Managers Path, Camille Fournier
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Guiding%20critical%20projects%20without%20micromanaging/">
+        Guiding critical projects without micromanaging
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Strategy and Roadmap Uncertainty
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+        Strategy and Roadmap Uncertainty
+      </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#content">
+    Content
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#strategy">
+    Strategy
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#domain">
+    Domain
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#roadmap">
+    Roadmap
+  </a>
+<nav aria-label="Roadmap" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#setting-expectations-and-delivering-on-schedule">
+    Setting Expectations and Delivering on Schedule
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#strategies-for-handling-roadmap-uncertainty">
+    Strategies for Handling Roadmap Uncertainty
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#solution-approach">
+    Solution Approach
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#guiding-critical-projects">
+    Guiding critical projects
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#high-performing-team">
+    High-performing Team
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#notes">
+    Notes
+  </a>
+<nav aria-label="Notes" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#setting-expectations-and-delivering-on-schedule_1">
+    Setting Expectations and Delivering on Schedule
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#strategies-for-handling-roadmap-uncertainty_1">
+    Strategies for Handling Roadmap Uncertainty
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#the-software-delivery-mantra">
+    The Software Delivery Mantra
+  </a>
+<nav aria-label="The Software Delivery Mantra" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#navigating-complex-delivery">
+    Navigating Complex Delivery
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#the-mantra">
+    The Mantra
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#motion-is-not-always-progress">
+    Motion is not always progress
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#progress-is-great-how-are-we-pacing">
+    Progress is great, how are we pacing?
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#we-are-going-to-make-it-wait-where-are-we">
+    We are going to make it! Wait… where are we?
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#summary">
+    Summary
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Turning%20Domain%20Discovery%20into%20Product%20and%20Organizational%20Improvements%20with%20a%20DDD%20Exemplar/">
+        Turning Domain Discovery into Product and Organizational Improvements with a DDD Exemplar
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#content">
+    Content
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#strategy">
+    Strategy
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#domain">
+    Domain
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#roadmap">
+    Roadmap
+  </a>
+<nav aria-label="Roadmap" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#setting-expectations-and-delivering-on-schedule">
+    Setting Expectations and Delivering on Schedule
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#strategies-for-handling-roadmap-uncertainty">
+    Strategies for Handling Roadmap Uncertainty
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#solution-approach">
+    Solution Approach
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#guiding-critical-projects">
+    Guiding critical projects
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#high-performing-team">
+    High-performing Team
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#notes">
+    Notes
+  </a>
+<nav aria-label="Notes" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#setting-expectations-and-delivering-on-schedule_1">
+    Setting Expectations and Delivering on Schedule
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#strategies-for-handling-roadmap-uncertainty_1">
+    Strategies for Handling Roadmap Uncertainty
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#the-software-delivery-mantra">
+    The Software Delivery Mantra
+  </a>
+<nav aria-label="The Software Delivery Mantra" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#navigating-complex-delivery">
+    Navigating Complex Delivery
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#the-mantra">
+    The Mantra
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#motion-is-not-always-progress">
+    Motion is not always progress
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#progress-is-great-how-are-we-pacing">
+    Progress is great, how are we pacing?
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#we-are-going-to-make-it-wait-where-are-we">
+    We are going to make it! Wait… where are we?
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#summary">
+    Summary
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1 id="strategy-and-roadmap-uncertainty">Strategy and Roadmap Uncertainty<a class="headerlink" href="#strategy-and-roadmap-uncertainty" title="Permanent link">¶</a></h1>
+<h2 id="content">Content<a class="headerlink" href="#content" title="Permanent link">¶</a></h2>
+<ol>
+<li><a href="./#strategy">Strategy</a></li>
+<li><a href="./#domain">Domain</a></li>
+<li><a href="./#roadmap">Roadmap</a></li>
+<li><a href="./#high-performing-team">High-performing Team</a></li>
+<li><a href="./#concerns">Concerns</a></li>
+<li><a href="./#notes">Notes</a></li>
+</ol>
+<h2 id="strategy">Strategy<a class="headerlink" href="#strategy" title="Permanent link">¶</a></h2>
+<ol>
+<li>Mapping out domain landscape (<a href="../Turning%20Domain%20Discovery%20into%20Product%20and%20Organizational%20Improvements%20with%20a%20DDD%20Exemplar/">Domain Discovery &amp; Core Domain Chart</a>)</li>
+<li>Make an investment decision - <em>which of the proposed improvements to increasing differentiation or removing complexity should you choose?</em></li>
+</ol>
+<h2 id="domain">Domain<a class="headerlink" href="#domain" title="Permanent link">¶</a></h2>
+<ul>
+<li>Domain Discovery - <em>A primary purpose of domain discovery techniques, like big picture event storming, is to map out the current state of the landscape, capturing concepts like business processes, socio-technical structures, and roles like customers and colleagues.</em></li>
+<li><a href="https://github.com/ddd-crew/core-domain-charts">Core Domain Chart</a> - <em>exploring possible evolutions. The purpose of this activity is to visualize options, moving from discovery towards action</em></li>
+<li>Business processes / Journey Overview (exisiting and know future ones)</li>
+</ul>
+<h2 id="roadmap">Roadmap<a class="headerlink" href="#roadmap" title="Permanent link">¶</a></h2>
+<h3 id="setting-expectations-and-delivering-on-schedule">Setting Expectations and Delivering on Schedule<a class="headerlink" href="#setting-expectations-and-delivering-on-schedule" title="Permanent link">¶</a></h3>
+<p>Notes <a href="./#setting-expectations-and-delivering-on-schedule">here</a></p>
+<h3 id="strategies-for-handling-roadmap-uncertainty">Strategies for Handling Roadmap Uncertainty<a class="headerlink" href="#strategies-for-handling-roadmap-uncertainty" title="Permanent link">¶</a></h3>
+<blockquote>
+<p>Think about how to break down big projects into a series of smaller deliverables so that you can achieve some of the results, even if you don’t necessarily complete the grand vision.</p>
+</blockquote>
+<p>Notes <a href="./#strategies-for-handling-roadmap-uncertainty">here</a></p>
+<h3 id="solution-approach">Solution Approach<a class="headerlink" href="#solution-approach" title="Permanent link">¶</a></h3>
+<ul>
+<li>Building the right thing, building the thing right</li>
+<li>Solution design(user story mapping, event storms)<ul>
+<li>Risk assesment of new initiatives </li>
+</ul>
+</li>
+<li>The Software Delivery Mantra<ul>
+<li>Don’t confuse motion with progress</li>
+<li>Don’t confuse progress with the ability to deliver on time</li>
+<li>Don’t confuse delivering on time with delivery of the right outcome</li>
+</ul>
+</li>
+</ul>
+<h3 id="guiding-critical-projects">Guiding critical projects<a class="headerlink" href="#guiding-critical-projects" title="Permanent link">¶</a></h3>
+<p><a href="../Guiding%20critical%20projects%20without%20micromanaging/">Guiding Critical Projects Without Micromanaging</a>
+- Being outcomes-driven (is the work getting done, with good quality, in reasonable time, without burning out the people involved) is the only way I know how to work.
+- I trusted every person individually who was working on it, but I didn’t feel like I understood the details and I was worried that we weren’t asking ourselves the hard prioritization questions often enough. So I started a monthly update meeting.
+- <a href="https://docs.google.com/presentation/d/1eEXQUkkxLC8HUbRRxbek1Xc4xOW__rk5p5ZBwfm0FXc/edit?usp=sharing">Manage Colony Leadership Team</a> The colony leadership team and the squads follow up on the objectives in biweekly meetings</p>
+<h2 id="high-performing-team">High-performing Team<a class="headerlink" href="#high-performing-team" title="Permanent link">¶</a></h2>
+<ul>
+<li><a href="../Durable%20teams%20-%20The%20Managers%20Path%2C%20Camille%20Fournier/">Durable teams - The Managers Path, Camille Fournier</a></li>
+<li><a href="../Debugging%20Teams%20-%20Groundhog%20Day%20by%20Camille%20Fournier/">Debugging Teams - Groundhog Day by Camille Fournier</a></li>
+<li>Questions<ul>
+<li><em>How do you know you are doing a good job?</em></li>
+<li><em>How do you know you are doing the right thing?</em></li>
+<li><em>How do you know whether your colleagues need your help?</em></li>
+</ul>
+</li>
+</ul>
+<h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">¶</a></h2>
+<h3 id="setting-expectations-and-delivering-on-schedule_1">Setting Expectations and Delivering on Schedule<a class="headerlink" href="#setting-expectations-and-delivering-on-schedule_1" title="Permanent link">¶</a></h3>
+<p>One of the most frustrating questions that engineering managers get asked regularly is why something is taking so long. We’ve all been asked this question before. We’ve been asked it as hands-on engineers, as tech leads, and as managers of small teams, but the question takes on a whole new level of intensity when you’re managing team managers, because answering it is significantly harder when you aren’t embedded deeply in the details. 
+First things first: hopefully you’re being asked this question because something is running over plan by a significant margin. That is the time when it makes the most sense to ask, and when you should do your best to understand the scenario and answer. 
+Sadly, we are often asked this question in times when things are not taking any longer than the estimate. We are often asked this question when our leadership, for whatever reason, either didn’t like the original estimate or didn’t ask for it at all, and now they’re upset, despite nothing going wrong. 
+<mark>Therefore, you must always be aggressive about sharing estimates and updates to estimates, even when people don’t ask, especially if you believe that the project is critical or likely to take longer than a few weeks. This means you must be aggressive about getting estimates, and as we all know, software estimation is a very difficult process. Negotiating the process that your team uses to estimate, on what timescale, for what projects, may be part of your job at this level.</mark>
+Source <a href="../4.  Resources/Books/The Manager's Path">4.  Resources/Books/The Manager's Path</a></p>
+<h3 id="strategies-for-handling-roadmap-uncertainty_1">Strategies for Handling Roadmap Uncertainty<a class="headerlink" href="#strategies-for-handling-roadmap-uncertainty_1" title="Permanent link">¶</a></h3>
+<p>There are few strategies I’ve learned about building a roadmap: 
+- <strong>Be realistic about the likelihood of changing plans given the size and stage of the company you work for.</strong> If your startup has a history of changing the year’s plans every summer to account for the business results from the first half of the year, be prepared for a change in the summer, and try not to promise things to your team that would require continuity beyond that point.
+- <strong>Think about how to break down big projects into a series of smaller deliverables so that you can achieve some of the results, even if you don’t necessarily complete the grand vision.</strong> Breaking down the technical work will require you to work closely with the product or business managers to figure out how the details should be prioritized. All of you should be aware by now that things will change quickly, so everything must be repeatedly reexamined with an eye toward what’s most valuable right now.
+- <strong>Don’t overpromise a future of technical projects.</strong> Don’t promise your team exciting technical projects “later,” because the product roadmap for later hasn’t been written yet. This kind of thinking will get hopes up and then disappoint. If the project is important, get it scheduled now — or as close to now as possible. If the project is not urgently important, you can put it on the backlog, but you should be realistic that once “later” rolls around, there will be a long list of competing priorities from other parts of the business. If you haven’t taken the time to articulate the value of this work, it will get pushed aside in favor of projects that are more clearly valuable.
+- <strong>Dedicate 20% of your team’s schedule to “sustaining engineering.”</strong> This means allowing time for refactoring, fixing outstanding bugs, improving engineering processes, doing minor cleanup, and providing ongoing support. Take this into account in every planning session. Unfortunately, 20% is not enough to do big projects, so additional planning will be needed to get major technical rewrites or other big technical improvements. But without that 20% time, there will be negative consequences with missed delivery goals and unplanned and unpleasant cleanup work.
+- <strong>Understand how important various engineering projects really are.</strong> Product and business projects usually have some kind of value proposition to justify them. However, the same rigor isn’t always applied when it comes to technical projects. When an engineer comes to you with an engineering project that she wants to do, think about framing the project by answering these questions:  </p>
+<p>How big is that project? 
+  How important is it? 
+  Can you articulate the value of that project to anyone who asks? 
+  What would successful completion of the project mean for the team? </p>
+<p>The value of these questions is that you start to treat big technical projects the same way as product initiatives. These projects have advocates and goals, they have schedules, and they are managed like other big initiatives. This is a scary process because there are times when you “know” something is important, but you don’t know how to articulate it in a way that the business will value. Especially given the complex nature of technical projects and the challenge of measuring things like engineering efficiency, you’re sometimes stuck trying to explain technical details to a nontechnical partner who may not totally understand where you’re going or why. My advice is to do your best to gather data to support yourself, and talk about what will be possible when the work is done. If you look at a technical project and realize that you’re proposing a bunch of work for a system that is rarely changed and won’t enable core improvements to your technology or business, it probably isn’t worth the effort. Unfortunately, there is never enough time for all the exploratory engineering, legacy code cleanup, and technical quality improvements your team will want to do, and this process will help you pick your battles.</p>
+<p>Source <a href="../4.  Resources/Books/The Manager's Path">4.  Resources/Books/The Manager's Path</a></p>
+<h3 id="the-software-delivery-mantra">The Software Delivery Mantra<a class="headerlink" href="#the-software-delivery-mantra" title="Permanent link">¶</a></h3>
+<h4 id="navigating-complex-delivery">Navigating Complex Delivery<a class="headerlink" href="#navigating-complex-delivery" title="Permanent link">¶</a></h4>
+<p>Developing software with complex requirements or environments with ambiguity can make a team lose their heading. It requires structure to ensure accurate, timely delivery and everyone to be on the same page. In this article, I illustrate the steps I have cultivated in my career to make sure the course of the team is headed in the right direction when they veer off course.</p>
+<p><img alt="" src="https://miro.medium.com/max/1400/1*4skQhSqZ83Xae73EtXu_vw.jpeg"/></p>
+<p>Credit: Dreamstime.com</p>
+<h4 id="the-mantra">The Mantra<a class="headerlink" href="#the-mantra" title="Permanent link">¶</a></h4>
+<blockquote>
+<p>— Don’t confuse motion with progress<br/>
+— Don’t confuse progress with the ability to deliver on time<br/>
+— Don’t confuse delivering on time with delivery of the right outcome</p>
+</blockquote>
+<h4 id="motion-is-not-always-progress">Motion is not always progress<a class="headerlink" href="#motion-is-not-always-progress" title="Permanent link">¶</a></h4>
+<p>You could be treading water. The first area of inspection is generally looking to see if the activities of the team align to some direction. Things I look out for:
+- lack of clarity on the end goal
+- lack of smaller, near term milestones
+- a singular focus on activities in the absence of a plan</p>
+<h4 id="progress-is-great-how-are-we-pacing">Progress is great, how are we pacing?<a class="headerlink" href="#progress-is-great-how-are-we-pacing" title="Permanent link">¶</a></h4>
+<p>If the activities are driving incremental progress in the project, the next area is to see if the pace of work will result in delivery in a timely fashion. The pitfalls to watch out for here are:
+- lack of a <a href="https://datou-tech.medium.com/back-stop-buck-stop-timely-software-delivery-9783a1f98dce?source=user_profile---------1----------------------------">work-back plan</a> or an agile technique to estimate delivery (ie, story point heuristics)
+- lack of debate on tradeoffs on all sides of scope, quality and time
+- absence of communication and action taken on blockers (ie, clearly calling out dependencies)</p>
+<h4 id="we-are-going-to-make-it-wait-where-are-we">We are going to make it! Wait… where are we?<a class="headerlink" href="#we-are-going-to-make-it-wait-where-are-we" title="Permanent link">¶</a></h4>
+<p>This last one is most suited as a first step but when building software in an agile environment, there should be constant evaluation if the goals have changed since development started. Especially long lived initiatives or teams building out large platforms. Things to look out for:
+- lack of structured documentation outlining the goals
+- lack of community understanding of what the goal is (and explicitly what the goal is not)
+- absence of qualitative success metrics</p>
+<h4 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">¶</a></h4>
+<p>While this article focused primarily on things to avoid, I hope it provides some cautionary signs to help you prevent your projects from heading to the wrong destination or never arriving.</p>
+<p>I have heard this phenomena termed “Swirl” also. Here is a bonus doodle:</p>
+<p><img alt="" src="https://miro.medium.com/max/1400/1*ARCbmNisjmJWhLTwGVI1xg.jpeg"/></p>
+</article>
+</div>
+</div>
+</main>
+<footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Previous: Guiding critical projects without micromanaging" class="md-footer__link md-footer__link--prev" href="../Guiding%20critical%20projects%20without%20micromanaging/" rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Previous
+              </span>
+              Guiding critical projects without micromanaging
+            </div>
+</div>
+</a>
+<a aria-label="Next: Turning Domain Discovery into Product and Organizational Improvements with a DDD Exemplar" class="md-footer__link md-footer__link--next" href="../Turning%20Domain%20Discovery%20into%20Product%20and%20Organizational%20Improvements%20with%20a%20DDD%20Exemplar/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Next
+              </span>
+              Turning Domain Discovery into Product and Organizational Improvements with a DDD Exemplar
+            </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+<script src="../../assets/javascripts/bundle.8492ddcf.min.js"></script>
+<script src="../../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</body>
+</html>
