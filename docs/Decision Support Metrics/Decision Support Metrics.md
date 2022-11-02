@@ -1,13 +1,12 @@
 # Decision Support Metrics
-Defining metrics, we need to ensure they are actionable and it is clear what kind of leadership decision we would make based on the metric. If the metric is not actionable and a change in it will not trigger a leadership decision, they are likely vanity metrics that provide little useful information.
+When we define metrics, we need to ensure they are actionable and it is clear what kind of leadership decision we would make based on the metric. If the metric is not actionable and a change in it will not trigger a leadership decision, they are likely vanity metrics that provide little useful information.
 
 For each Decision Support Metrics we consider establishing, we should be able to answer: What action(s) would we take based on this metric?
 
-- [[Project Health]]
-- **Throughput / productivity** (Nr of deploys, nr of releases, WIP(open pull requests, tasks in doing etc), code review turnaround time, time to open pr, pr size, pr age, lines changed Distribution of Run, improve, Change, )
-- **Software delivery performance** (fx deployment frequency, lead time for changes, time to restore, change failure rate)
-- **Project / service / domain health** (support tickets, log errors, CVE, availability, latency, throughput, error budgets)
-- **Squad / Lunar tech health** (reviews, reviews across, eNPS)
+## Content
+-[[Decision Support Metrics#“When a measure becomes a target, it ceases to be a good measure.”|“When a measure becomes a target, it ceases to be a good measure.”]]
+
+
 
 # “When a measure becomes a target, it ceases to be a good measure.”
 Peter Drucker said “if you can’t measure it you can’t improve it,” but he didn’t mention the second-order effects of that statement. What changes after people get used to the measurements? What if we measure things that are only partly relevant to what we’re trying to improve?
@@ -36,6 +35,7 @@ One of the best papers digging into variations of the metric and goal problem is
 
 **Adversarial**. Where agents have different goals from the regulator and find a loophole that harms the goal. For example, colonial powers wanting to decrease the number of cobras in India or rats in Vietnam and paying a bounty for dead cobras or rat tails. People discovered that they could raise their own cobras to kill or cut off rat tails and release the rats. This is known as the [Cobra Effect](https://unintendedconsequenc.es/the-cobra-effect-redesigned/ "Cobra Effect").
 
+ 
 
 # Types of metrics (DevOps Handbook)
 
@@ -69,6 +69,13 @@ In general, business metrics will be part of a customer acquisition funnel, whic
 Ideally, anyone viewing our information radiators will be able to make sense of the information we are showing in the context of desired organizational outcomes, such as goals around revenue, user attainment, conversion rates, etc. We should define and link each metric to a business outcome metric at the earliest stages of feature definition and development, and measure the outcomes after we deploy them in production. Furthermore, doing this helps product owners describe the business context of each feature for everyone in the value stream.
 
 By radiating how customers interact with what we build in the context of our goals, we enable fast feedback to feature teams so they can see whether the capabilities we are building are actually being used and to what extent they are achieving business goals. As a result, we reinforce the cultural expectations that instrumenting and analyzing customer usage is also a part of our daily work, so we better understand how our work contributes to our organizational goals.
+
+
+# Types of metrics
+- **Throughput / productivity** (Nr of deploys, nr of releases, WIP(open pull requests, tasks in doing etc), code review turnaround time, time to open pr, pr size, pr age, lines changed Distribution of Run, improve, Change, )
+- **Software delivery performance** (fx deployment frequency, lead time for changes, time to restore, change failure rate)
+- **Project / service / domain health** (support tickets, log errors, CVE, availability, latency, throughput, error budgets)
+- **Squad / Lunar tech health** (reviews, reviews across, eNPS)
 
 # Forming Your Error Budget
 
@@ -104,3 +111,6 @@ I tend to feel bad working on a diff where I have put more than a day’s worth 
 - Small CLs: [https://google.github.io/eng-practices/review/developer/small-cls.html](https://google.github.io/eng-practices/review/developer/small-cls.html)
 - How to do a code review: [https://google.github.io/eng-practices/review/reviewer](https://google.github.io/eng-practices/review/reviewer)/
 - Joakims test rant: [https://github.com/recht/rants/blob/master/testing.md](https://github.com/recht/rants/blob/master/testing.md)
+
+# Related notes
+- [[Project Health]]
