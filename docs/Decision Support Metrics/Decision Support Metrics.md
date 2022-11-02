@@ -4,9 +4,12 @@ When we define metrics, we need to ensure they are actionable and it is clear wh
 For each Decision Support Metrics we consider establishing, we should be able to answer: What action(s) would we take based on this metric?
 
 ## Content
--[[Decision Support Metrics#“When a measure becomes a target, it ceases to be a good measure.”|“When a measure becomes a target, it ceases to be a good measure.”]]
-
-
+- [[Decision Support Metrics#“When a measure becomes a target, it ceases to be a good measure.”|“When a measure becomes a target, it ceases to be a good measure.”]]
+- [[Decision Support Metrics#Types of metrics (DevOps Handbook)|Types of metrics (DevOps Handbook)]]
+- [[Decision Support Metrics#Types of metrics|Types of metrics]]
+- [[Decision Support Metrics#Forming Your Error Budget|Forming Your Error Budget]]
+- [[Decision Support Metrics#Measure Productivity|Measure Productivity]]
+- [[Decision Support Metrics#Related notes|Related notes]]
 
 # “When a measure becomes a target, it ceases to be a good measure.”
 Peter Drucker said “if you can’t measure it you can’t improve it,” but he didn’t mention the second-order effects of that statement. What changes after people get used to the measurements? What if we measure things that are only partly relevant to what we’re trying to improve?
